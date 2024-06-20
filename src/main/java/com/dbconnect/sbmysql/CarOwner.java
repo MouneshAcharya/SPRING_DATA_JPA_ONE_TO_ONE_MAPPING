@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name="car_owner_1")
+@Table(name="car_owner")
 @Data
 public class CarOwner {
     @Id
