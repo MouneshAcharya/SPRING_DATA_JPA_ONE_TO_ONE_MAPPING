@@ -36,3 +36,8 @@ FOREIGN KEY (c_id) REFERENCES Country(country_id)
 ON DELETE CASCADE;
 
 ALTER TABLE Capital DROP FOREIGN KEY fk_country_capital;
+
+# delete failed on one to one mapping
+<img src="delete_fail.png"/>
+
+<img src="adding_ondelete_cascade.png"/>
