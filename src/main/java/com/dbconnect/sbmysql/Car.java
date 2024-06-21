@@ -15,6 +15,6 @@ public class Car {
     private String name;
     @ManyToOne(cascade = CascadeType.ALL)
     @OnDelete(action = OnDeleteAction.CASCADE)
-    @JoinColumn(name="car_owner_id")
+    @JoinColumn(name="car_owner_id", referencedColumnName = "id")
     private CarOwner carOwner;
 }

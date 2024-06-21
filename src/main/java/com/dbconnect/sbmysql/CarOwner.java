@@ -16,7 +16,7 @@ public class CarOwner {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-    @OneToMany(mappedBy = "carOwner",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "carOwner")
     private Set<Car> cars;
 
 }
