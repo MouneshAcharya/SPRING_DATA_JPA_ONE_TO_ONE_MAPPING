@@ -12,8 +12,7 @@ public class Capital {
     private int id;
     private String name;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @OnDelete(action = OnDeleteAction.CASCADE)
+    @OneToOne
     @JoinColumn(name="country_id", referencedColumnName = "id")
     private Country country;
 }
