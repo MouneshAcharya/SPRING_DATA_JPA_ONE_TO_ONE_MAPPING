@@ -41,3 +41,5 @@ ALTER TABLE Capital DROP FOREIGN KEY fk_country_capital;
 <img src="delete_fail.png"/>
 
 <img src="adding_ondelete_cascade.png"/>
+
+refer <a href="https://medium.com/@magenta2127/how-to-design-mysql-database-model-for-1-to-1-1-to-n-and-m-to-n-relationship-fbedd434aeab">mysql mapping</a>
